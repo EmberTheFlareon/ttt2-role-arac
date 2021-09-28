@@ -42,11 +42,11 @@ if SERVER then
 
   function ROLE:GiveRoleLoadout(ply, isRoleChange)
     ply:GiveEquipmentWeapon("weapon_ttt_arac_bite")
-    ply:GiveEquipmentItem("item_ttt_climb")
+    ply:GiveEquipmentItem("item_ttt_climb_arac")
   end
 
   function ROLE:RemoveRoleLoadout(ply, isRoleChange)
       ply:StripWeapon("weapon_ttt_arac_bite")
-      ply:RemoveEquipmentItem("item_ttt_climb")
+      ply:RemoveEquipmentItem("item_ttt_climb_arac")
   end
 end

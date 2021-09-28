@@ -180,7 +180,7 @@ hook.Add("TTTCanSearchCorpse","WebObscuresCorpse", function(ply, ent, corpse, is
 end)
 
 hook.Add("EntityTakeDamage", "TryToBurnWeb", function(ent, dmg)
-  if ent.IsWebbed == true and dmg:GetDamageType(DMG_BURN) then
+  if ent.IsWebbed == true and dmg:GetDamageType() == DMG_BURN then
     ent:SetMaterial("")
     ent.IsWebbed = false
   end
