@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture" "models\spider_web\spider_web"
+//	"$surfaceprop" "flesh"
+	"$translucent" 0 
+	"$bumpmap" "models\spider_web\spider_web_NRM"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 0.6	
+	"$envmaptint" "[.8 .8 .8]"
+	"$envmap" "env_cubemap"
+//	"$additive" 1
+}
